@@ -76,13 +76,13 @@
                                         <rect key="frame" x="180.5" y="0.0" width="193.5" height="128.5"/>
                                         <subviews>
                                             <slider opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="748" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="IbI-9F-zNB">
-                                                <rect key="frame" x="-2" y="0.0" width="197.5" height="29.5"/>
+                                                <rect key="frame" x="-2" y="0.0" width="197.5" height="31"/>
                                                 <connections>
                                                     <action selector="sliderColor" destination="BYZ-38-t0r" eventType="valueChanged" id="Xs6-vf-CHL"/>
                                                 </connections>
                                             </slider>
-                                            <slider opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="VYC-GL-jYC">
-                                                <rect key="frame" x="-2" y="48.5" width="197.5" height="31"/>
+                                            <slider opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="747" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="VYC-GL-jYC">
+                                                <rect key="frame" x="-2" y="50" width="197.5" height="29.5"/>
                                                 <connections>
                                                     <action selector="sliderColor" destination="BYZ-38-t0r" eventType="valueChanged" id="j9M-Dn-tPn"/>
                                                 </connections>
