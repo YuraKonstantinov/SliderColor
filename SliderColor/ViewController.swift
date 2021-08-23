@@ -25,11 +25,15 @@ class ViewController: UIViewController {
     }
     
     @IBAction func sliderColor() {
-        labelRed.text = String(sliderRedView.value)
-        labelGreen.text = String(sliderGreenView.value)
-        labelBlue.text = String(sliderBlueView.value)
+        labelRed.text = String(format: "%.2f", sliderRedView.value)
+        labelGreen.text = String(format: "%.2f", sliderGreenView.value)
+        labelBlue.text = String(format: "%.2f",sliderBlueView.value)
         
-        viewColor.backgroundColor = UIColor(red: CGFloat(sliderRedView.value), green: CGFloat(sliderGreenView.value), blue: CGFloat(sliderBlueView.value), alpha: 1)
+        viewColor.backgroundColor = UIColor(
+            red: CGFloat(sliderRedView.value),
+            green: CGFloat(sliderGreenView.value),
+            blue: CGFloat(sliderBlueView.value),
+            alpha: 1)
     }
     
     
